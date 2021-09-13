@@ -34,7 +34,29 @@
 #         break
 #     else:
 #         print('你输入的有误，请重新输入')
-#
+
+
+# 方法2：
+# 定义一个列表，因为列表也是用来存储数据的，而且是存储有序的数据的。还可以用字典来存储。
+dict = {'1':'周一','2':'周二','3':'周三','4':'周四','5':'周五','6':'周末','7':'周末'}
+while True:
+    day = input('请输入1-7之间的数字:')
+    if day in dict:
+        print(dict[day])
+    elif day == '0':
+        break
+    else:
+        print('输入有误，请重新输入')
+
+
+
+
+
+
+
+
+
+
 
 # 题目：使用for循环打印九九乘法表
 #
@@ -58,7 +80,7 @@
 
 1 * 9 = 9    2 * 9 = 18    3 * 9 = 27    4 * 9 = 36    5 * 9 = 45    6 * 9
 '''
-
+#
 # for a in range(1,10):
 #     for b in range(1,a+1):
 #         print(f'{b} * {a} = {a * b}', end='\t')
@@ -69,7 +91,7 @@
 # 在程序中预设一个0~9之间的整数，让用户通过键盘输入所猜的数，如果大于预设的数，显示“遗憾，太大了”，
 # 小于预设的数，显示“遗憾，太小了”，如此循环，直至猜中该数，显示“预测N次，你猜中了！”，其中N是用户输入数字的次数。
 # 提示：使用while无限循环，当猜中时break
-#
+
 # num_key = 6
 # i = 0
 # while True:
@@ -133,12 +155,31 @@
 
 # 外循环5次，内循环4次
 # 归纳后为：
-list = [1,7,4,89,34,2]
-for i in range(len(list)-1):
-    for j in range(len(list)-1-i):
-        if list[j] > list[j+1]:
-            list[j],list[j+1] = list[j+1],list[j]
-print(list)
+# list = [1,7,4,89,34,2]
+# for i in range(len(list)-1):
+#     for j in range(len(list)-1-i):
+#         if list[j] > list[j+1]:
+#             list[j],list[j+1] = list[j+1],list[j]
+# print(list)
 
+'''
+分行赋值和单行赋值
 
+# 赋值前：
+print(id(list[0]))   # 8790923465760
+print(id(list[1]))   # 8790923465952
 
+# 赋值后
+
+list[0] = list[1]
+print(id(list[0]))   # 8790923465952
+
+list[1] = list[0]
+print(id(list[1]))   # 8790923465952
+
+# 赋值方式2：
+# 赋值后
+# list[0],list[1] = list[1],list[0]
+# print(id(list[0]))   # 8791121974496
+# print(id(list[1]))   # 8791121974304
+'''
