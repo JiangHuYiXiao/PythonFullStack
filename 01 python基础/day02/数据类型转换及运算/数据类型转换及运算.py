@@ -92,6 +92,10 @@ print(a <= 10)      # True
 print(a == 10)      # True
 print(a != 10)      # False
 # print(a <> 10)      # 3.7版本不支持
+
+# 判断大于等于并且小于等于写法为：
+# 1<= a <=88
+
 # 逻辑运算
 # and :x and y,如果x为True，则返回y，x为 False 则返回x。0就是fasle，其他值就是true，如果x和y都为bool类型，则两个同为真则返回真，只要有一个为false，则返回false。
 # or:x or y，如果x为True，则返回x，x为 False 则返回y。如果x和y都为bool类型，则只要有一个为false，则返回false，则只要有一个为true，则返回true。
