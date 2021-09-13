@@ -103,7 +103,7 @@ print(test_func(a=1,b=2))   # 1,2 关键字参数     结果是(3, ()),返回一
 print(test_func(1,2,3,5))   # 1,2 关键字参数，3,5则是可变的位置参数， 结果是(3, (3, 5)),返回一个元组
 
 
-# 6、可变关键字参数**kargs，
+# 6、可变关键字参数**kargs，   返回字典，因为字典是有key关键字的
 def test_func(a,b,**kwargs):  # a,b，位置参数且是必填的  **kargs为可选，多个关键字参数
     return(a + b,kwargs)
 print(test_func(a=1,b=2))   # 1,2 关键字参数     结果是(3, {}),返回一个元组包含字典
