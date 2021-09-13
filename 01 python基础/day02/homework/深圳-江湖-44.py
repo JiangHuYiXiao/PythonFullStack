@@ -39,7 +39,7 @@ print(f'付款{money}元')
 # 截取字符串末尾两个字符
 # 字符串的倒序
 my_hobby = "Never stop learning!"
-print(my_hobby[1:7])            # ever s
+print(my_hobby[1:6])            # ever
 print(my_hobby[:])              # Never stop learning!
 print(my_hobby[3::2])           # e tplann!
 print(my_hobby[-2:])           # g!
