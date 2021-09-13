@@ -49,7 +49,7 @@ print(my_hobby[::-1])           # !gninrael pots reveN
 
 # 题目：以下哪个是正确的字符串（B,D）
 
-# A ‘abc”ab” B ‘abc”ab’ C “abc”ab” D “abc\”ab”
+# A ‘abc”ab” B ‘abc”ab’ C “abc”ab” D “abc\”ab”    \表示转义，不是字符串
 
 
 # AA1 = 'abc"a"
