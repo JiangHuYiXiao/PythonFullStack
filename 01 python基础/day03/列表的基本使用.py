@@ -78,6 +78,31 @@ list1[-1] = 'WNBA'
 print(list1)            # [1, 2, 3, 'hello', {'key1': 9999}, 222, 'WNBA']
 
 
-# 4、***********index()获取索引**********
+# 4、***********查index()获取索引**********
 
 print(list1.index('WNBA'))          # 6
+
+# 5、统计元素出现的次数
+lis = [1,2,44,1,66]
+print(lis.count(1))         # 2
+
+# 6、列表的排序,一般是对元素为int的进行排序，元素为字符串也可以排序
+# list.sort()在原有的列表上进行排序,无返回值
+# sorted(list)          返回一个排序后的新的列表
+list = [22,12,333,42,98,1,2,76]
+
+print(list.sort())      #
+print(list)         # [1, 2, 12, 22, 42, 76, 98, 333]
+print(sorted(list))     # [1, 2, 12, 22, 42, 76, 98, 333]
+
+
+# 如果需要反转可以，设置reverse = True
+# list.sort(reverse=True)
+# print(list)         # [333, 98, 76, 42, 22, 12, 2, 1]
+#
+# print(sorted(list, reverse=True))       # [333, 98, 76, 42, 22, 12, 2, 1]
+
+
+# 7、列表的反转,还可以直接使用reverse()方法
+list.reverse()
+print(list)         # [333, 98, 76, 42, 22, 12, 2, 1]
