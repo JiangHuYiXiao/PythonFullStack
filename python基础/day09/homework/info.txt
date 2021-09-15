@@ -1,0 +1,3 @@
+name,age,gender,hobby,motto
+vvv22男学习学习使我快乐
+yuze20女拿30K offer下次拿个40K 的
