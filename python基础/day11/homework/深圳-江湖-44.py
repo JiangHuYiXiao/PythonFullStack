@@ -45,9 +45,9 @@ class Student:
 
 
 xiaoming = Student(age=18,name='小花',gender='女生',english_score='100',math_score=99,chinese_score='89')
-print(xiaoming.identity)            # 学生
-print(xiaoming.name)            # 小花
-print(xiaoming.age)                 # 18
+print(Student.identity)            # 学生   类属性用类调用，实例属性用实例调用
+print(xiaoming.name)            # 小花    类属性用类调用，实例属性用实例调用
+print(xiaoming.age)                 # 18    类属性用类调用，实例属性用实例调用
 
 
 
