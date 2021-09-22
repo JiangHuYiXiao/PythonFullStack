@@ -32,21 +32,30 @@ print(func.test())
 
 
 
-# 3、from 包名.模块名 import 函数名、类名、方法名、变量
+# 3、from 包名.模块名 import 函数名、类名、变量
+# 、方法名是不能够直接导入的，需要先导入类，然后通过类去使用方法
 
 # 导入函数
 from python基础.day05.func import test
 print(test())
 
 
+# from python基础.day05.func import small_student
+# from python基础.day05.func.Student import small_student
+# ImportError: cannot import name 'small_student from 'python基础.day05.func' (F:\PythonFullStack\python基础\day05\func.py)
+
+# 导入类
+from python基础.day05.func import Student
+
+print(Student)
+
+Student.small_student()             # 这样才可以使用方法
 # 导入变量
 from python基础.day05.func import time1
 print(time1)
 
 
-# 导入类
-from python基础.day05.func import Student
-print(Student)
+
 
 # 当本文件有相同的变量、函数、类、方法时，使用别名进行导入
 def test():
