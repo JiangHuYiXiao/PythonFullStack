@@ -70,8 +70,10 @@ print(str)          # so hu obj
 print('HELLO'.lower())              # hello
 
 
+# 8、strip()默认去前后空格，可以指定去除前后特定字符串
 
-# 8、字符串的格式化操作
+
+# 9、字符串的格式化操作
 
 # f_string,python3.6之后用这种格式，之前是用的format
 name ='jianghu'
