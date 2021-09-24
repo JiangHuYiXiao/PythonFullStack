@@ -106,3 +106,9 @@ print(sorted(list))     # [1, 2, 12, 22, 42, 76, 98, 333]
 # 7、列表的反转,还可以直接使用reverse()方法
 list.reverse()
 print(list)         # [333, 98, 76, 42, 22, 12, 2, 1]
+
+# 8、列表推导式
+# 当需要对一个列表数据遍历时，可以通过列表推导式，可以简化我们的for循环嵌套
+list_test = ['a','b',1,12,14]
+res = [i for i in list_test]
+print(res)          # ['a', 'b', 1, 12, 14]
