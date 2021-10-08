@@ -5,7 +5,7 @@
 # @Python_verison : 3.7
 
 
-# 1、测试数据的分离
+# 1、文件分类
 # 把用例放到test_case包下，报告放到report包中，测试数据放在data包中，运行脚本写在run.py中
 
 
