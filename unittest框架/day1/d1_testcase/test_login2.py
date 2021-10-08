@@ -4,8 +4,9 @@
 # @Software       : PythonFullStack
 # @Python_verison : 3.7
 import unittest
-from python基础.day13.d1_unittest单元测试框架 import test_login
-
+import sys
+from unittest框架.day1.d1_unittest单元测试框架 import test_login
+print(sys.path)
 
 class Login_Test(unittest.TestCase):
 
