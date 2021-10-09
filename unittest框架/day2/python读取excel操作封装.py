@@ -60,3 +60,8 @@ print(read_excel_dict(file='case_data.xlsx', sheet_name='Sheet1'))
 # [{'id': 1, 'title': 'test1', 'data': 'jianghu', 'expected': '成功'},
 # {'id': 2, 'title': 'test2', 'data': 'yixiu', 'expected': '失败'},
 # {'id': 3, 'title': 'test3', 'data': 'hhhh', 'expected': '成功'}]
+
+
+# 实际工作中对我们自己编写代码进行一个简单测试是按照下面这个方式进行测试的
+if __name__ == '__main__':
+    read_excel_dict(file='case_data.xlsx', sheet_name='Sheet1')
