@@ -19,7 +19,7 @@ python中操作excel需要用到第三方库openpyxl，这是一个专门操作e
 from openpyxl import load_workbook
 
 # 创建wb对象
-wb = load_workbook('case_data.xlsx')
+wb = load_workbook('login_data1.xlsx')
 print(wb)
 
 # 获取sheet页
