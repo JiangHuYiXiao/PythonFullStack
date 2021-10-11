@@ -1,0 +1,8 @@
+data:
+  case_name: 'test1'
+  ip: 127.0.0.1
+  port: 8080
+  data_address: 'jianghudata'
+  data_port: 11035
+  username: 'jianghu'
+  password: 123456

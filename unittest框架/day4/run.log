@@ -1,0 +1,10 @@
+2021-10-11 12:29:37.821 | INFO     | 日志模块loguru:test_login1:43 - 用例1在执行
+2021-10-11 12:29:37.823 | ERROR    | 日志模块loguru:test_login1:52 - 用例1断言失败
+2021-10-11 12:29:37.829 | INFO     | 日志模块loguru:test_login2:57 - 用例2在执行
+2021-10-11 12:29:55.705 | INFO     | 日志模块loguru:test_login1:43 - 用例1在执行
+2021-10-11 12:29:55.706 | ERROR    | 日志模块loguru:test_login1:52 - 用例1断言失败
+2021-10-11 12:29:55.710 | INFO     | 日志模块loguru:test_login2:57 - 用例2在执行
+2021-10-11 12:31:55.552 | ERROR    | 日志模块loguru:test_login1:52 - 用例1断言失败
+2021-10-11 12:32:06.612 | ERROR    | 日志模块loguru:test_login1:52 - 用例1断言失败
+2021-10-11 12:34:07.532 | ERROR    | 日志模块loguru:test_login1:52 - 用例1断言失败
+2021-10-11 12:41:05.299 | ERROR    | 日志模块loguru:test_login1:54 - 用例1断言失败
