@@ -5,7 +5,7 @@
 # @Python_verison : 3.7
 
 import unittest
-# from unittest框架.day1.homework.sz_jianghu_44 import login
+# from unittest框架.day1.homework.homework import login
 from unittest框架.day1.homework.sz_jianghu_44.login import login
 from unittest框架.day2.python读取excel操作封装 import read_excel_dict
 '''

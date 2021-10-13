@@ -16,7 +16,7 @@
 '''
 
 import unittest
-# from unittest框架.day1.homework.sz_jianghu_44 import login
+# from unittest框架.day1.homework.homework import login
 from unittest框架.day1.homework.sz_jianghu_44.login import login
 class Test_Login(unittest.TestCase):
     def test_login_null(self):
