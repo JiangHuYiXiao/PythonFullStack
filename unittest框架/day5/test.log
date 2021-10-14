@@ -1,0 +1,20 @@
+正常信息
+警告信息
+错误信息
+正常信息
+警告信息
+错误信息
+2021-10-14 08:54:36,850:root:INFO:53:正常信息
+2021-10-14 08:54:36,850:root:WARNING:54:警告信息
+2021-10-14 08:54:36,851:root:ERROR:55:错误信息
+2021-10-14 08:56:23,035:root:INFO:57:正常信息
+2021-10-14 08:56:23,035:root:WARNING:58:警告信息
+2021-10-14 08:56:23,035:root:ERROR:59:错误信息
+(asctime):(name):(levelname):(lineno):(message)
+(asctime):(name):(levelname):(lineno):(message)
+(asctime):(name):(levelname):(lineno):(message)
+2021-10-14 09:03:08,139:root:INFO:57:正常信息
+2021-10-14 09:03:08,139:root:WARNING:58:警告信息
+2021-10-14 09:05:22,491:root:INFO:57:正常信息
+2021-10-14 09:05:22,491:root:WARNING:58:警告信息
+2021-10-14 09:05:22,492:root:ERROR:59:错误信息
