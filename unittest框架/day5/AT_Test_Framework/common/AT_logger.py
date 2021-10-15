@@ -9,13 +9,15 @@
 # 2、函数逻辑体
 # 3、函数的返回值
 from loguru import logger
-
+from unittest框架.day5.AT_Test_Framework.setting.config import log_file
 def at_logger(file):
     logger.add(sink=file, encoding='utf-8', rotation='100MB', level='INFO')
     return logger
 
-my_log = at_logger('case.log')
+my_log = at_logger(log_file)
 
 if __name__ == '__main__':
 
     at_logger('test.log').info('正常信息')
+
+

@@ -18,8 +18,9 @@ from ddt import ddt,data
 from unittest框架.day5.AT_Test_Framework.login import login
 from unittest框架.day5.AT_Test_Framework.common.AT_logger import at_logger
 from unittest框架.day5.AT_Test_Framework.common.AT_logger import my_log
+from unittest框架.day5.AT_Test_Framework.setting.config import testdata_file
 
-test_data = read_excel_dict(r'F:\PythonFullStack\unittest框架\day5\AT_Test_Framework\data\login_data.xlsx','Sheet1')
+test_data = read_excel_dict(testdata_file,'Sheet1')
 
 
 @ddt
