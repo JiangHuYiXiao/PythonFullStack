@@ -16,7 +16,8 @@ import unittest
 from unittest框架.day5.AT_Test_Framework.common.read_excel_dict import read_excel_dict
 from ddt import ddt,data
 from unittest框架.day5.AT_Test_Framework.login import login
-
+from unittest框架.day5.AT_Test_Framework.common.AT_logger import at_logger
+from unittest框架.day5.AT_Test_Framework.common.AT_logger import my_log
 
 test_data = read_excel_dict(r'F:\PythonFullStack\unittest框架\day5\AT_Test_Framework\data\login_data.xlsx','Sheet1')
 
@@ -25,6 +26,11 @@ test_data = read_excel_dict(r'F:\PythonFullStack\unittest框架\day5\AT_Test_Fra
 class Test_Login(unittest.TestCase):
     @data(*test_data)
     def test_login1(self,i):
+        # 记录日志
+        # at_logger('jianghu.log').info('正在执行测试用例')      # 这样写我们的logger是没有关闭的，因为有三组数据，记录日志是呈现1,2,3加起来的6个日志记录的
+        my_log.info('正在执行测试用例')
+
+
         #准备数据
         username = eval(i['data'])['username']
         password = eval(i['data'])['password']
