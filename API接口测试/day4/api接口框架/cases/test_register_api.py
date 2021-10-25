@@ -16,30 +16,45 @@ import unittest
 from API接口测试.day4.api接口框架.common.read_excel import read_excel
 from API接口测试.day4.api接口框架.config import config
 import json
+from API接口测试.day4.api接口框架.common.AT_loguru import my_log
 
 
 # 获取测试数据
 register_data= read_excel(file=config.testdata_file,sheetname='register')
-# @ddt
+
+@ddt
 class Test_Register_API(unittest.TestCase):
-    # @data(*register_data)
-    def test_register_mobile_null(self,i):
+    @data(*register_data)
+    def test_register(self,i):
+        # i就是我们的响应结果数据结果
         '''
-        测试注册时手机号为空
+        测试注册时手机号为空、格式不对
         :return:
         '''
+        case_id = i['case_id']
+        title = i['title']
+        my_log.info(f'正在执行用例id为：{case_id}，标题为：{title}的自动化测试用例')
 
-        case_id = json.loads(['case_id'])
-        title = json.loads(['title'])
-        method = json.loads(['method'])
+        method = i['method']
+        # 数据类型转换，因为请求体和请求头都是需要json格式进行数据传输
         headers = json.loads(i['headers'])
-        expected = json.loads(i['expected'])
         json_data = json.loads(i['json_data'])
-        register_url = 'http://api.lemonban.com:8766/futureloan/member/register'
-        response = requests.request(method='POST', url=register_url, headers=headers,json=json_data)
+
+        # 因为我们的实际结果经过调用后，返回的结果数据类型为字典，所以对预期结果也需要进行反序列化操作转换成字典
+        expected = json.loads(i['expected'])
+
+        # ip地址域名参数化，在config.py中配置域名地址
+        register_url = config.host + i['url']
+
+        #调用注册接口得到实际结果
+        response = requests.request(method=method, url=register_url, headers=headers,json=json_data)
         actual = response.json()
+
+        #实际结果和预期结果进行断言
         self.assertEqual(expected,actual)
-        print(response.json())
+
+        # 返回值
+        return response.json()
 
 
 

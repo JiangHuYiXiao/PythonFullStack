@@ -1,0 +1,17 @@
+2021-10-25 10:24:07.373 | INFO     | test_register_api:test_register:35 - 正在执行用例id为1标题为注册成功的自动化测试用例
+2021-10-25 10:24:07.409 | INFO     | test_register_api:test_register:35 - 正在执行用例id为2标题为手机号为空的自动化测试用例
+2021-10-25 10:24:27.691 | INFO     | test_register_api:test_register:35 - 正在执行用例id为：1标题为：注册成功的自动化测试用例
+2021-10-25 10:24:27.721 | INFO     | test_register_api:test_register:35 - 正在执行用例id为：2标题为：手机号为空的自动化测试用例
+2021-10-25 10:33:46.784 | INFO     | test_register_api:test_register:35 - 正在执行用例id为：1，标题为：注册成功的自动化测试用例
+2021-10-25 10:50:18.172 | INFO     | test_register_api:test_register:36 - 正在执行用例id为：1，标题为：手机号格式无效的自动化测试用例
+2021-10-25 10:50:18.231 | INFO     | test_register_api:test_register:36 - 正在执行用例id为：2，标题为：手机号为空的自动化测试用例
+2021-10-25 10:51:52.310 | INFO     | test_register_api:test_register:36 - 正在执行用例id为：1，标题为：手机号格式无效的自动化测试用例
+2021-10-25 10:53:15.018 | INFO     | test_register_api:test_register:36 - 正在执行用例id为：1，标题为：手机号格式无效的自动化测试用例
+2021-10-25 10:53:15.052 | INFO     | test_register_api:test_register:36 - 正在执行用例id为：2，标题为：手机号为空的自动化测试用例
+2021-10-25 11:14:50.468 | INFO     | test_register_api:test_register:36 - 正在执行用例id为：1，标题为：手机号格式无效的自动化测试用例
+2021-10-25 11:14:50.528 | INFO     | test_register_api:test_register:36 - 正在执行用例id为：2，标题为：手机号为空的自动化测试用例
+2021-10-25 11:15:06.574 | INFO     | test_register_api:test_register:36 - 正在执行用例id为：1，标题为：手机号格式无效的自动化测试用例
+2021-10-25 11:15:06.602 | INFO     | test_register_api:test_register:36 - 正在执行用例id为：2，标题为：手机号为空的自动化测试用例
+2021-10-25 11:17:10.608 | INFO     | test_register_api:test_register:36 - 正在执行用例id为：1，标题为：手机号格式无效的自动化测试用例
+2021-10-25 11:17:10.703 | INFO     | test_register_api:test_register:36 - 正在执行用例id为：2，标题为：手机号为空的自动化测试用例
+2021-10-25 11:17:10.716 | INFO     | test_register_api:test_register:36 - 正在执行用例id为：3，标题为：注册手机号存在的自动化测试用例

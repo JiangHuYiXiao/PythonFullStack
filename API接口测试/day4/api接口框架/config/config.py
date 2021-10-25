@@ -34,4 +34,5 @@ log_dir = os.path.join(root_dir,'reports')
 
 # 测试日志文件路径
 log_file = os.path.join(log_dir,'AT_test.log')
-#
+
+host = 'http://api.lemonban.com:8766/futureloan'

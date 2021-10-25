@@ -5,11 +5,16 @@
 # @Python_verison : 3.7
 
 import unittest,unittestreport
+from datetime import datetime
+
+now_time = datetime.now()
+time_fmt = now_time.strftime('%Y-%m-%d-%H-%M-%S')
+# print(time_fmt)
 
 # 收集用例
 # cases是用例所在目录
 suite = unittest.defaultTestLoader.discover('cases')            #
 
 # 运行用例
-runner = unittestreport.TestRunner(suite=suite,filename='自动化测试报告',templates=1,tester='jianghu',report_dir="./reports")
+runner = unittestreport.TestRunner(suite=suite,filename=f'{time_fmt}自动化测试报告',templates=1,tester='jianghu',report_dir="./reports")
 runner.run()

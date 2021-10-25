@@ -154,15 +154,15 @@
             </li>
             <li class="list-group-item">
                 <button type="button" class="btn btn-success">开始时间</button>
-                <span class="text-dark">2021-10-25 10:53:15</span>
+                <span class="text-dark">2021-10-25 11:17:10</span>
             </li>
             <li class="list-group-item">
                 <button type="button" class="btn btn-success">执行时间</button>
-                <span class="text-dark">0.05 S</span>
+                <span class="text-dark">0.29 S</span>
             </li>
             <li class="list-group-item">
                 <button type="button" class="btn btn-success">用例总数</button>
-                <span class="text-dark">2</span>
+                <span class="text-dark">3</span>
             </li>
 
 
@@ -177,7 +177,7 @@
             </li>
             <li class="list-group-item">
                 <button type="button" class="btn btn-warning">失败用例</button>
-                <span class="text-warning">0</span>
+                <span class="text-warning">1</span>
             </li>
             <li class="list-group-item">
                 <button type="button" class="btn btn-danger">错误用例</button>
@@ -254,7 +254,7 @@
                     <td class="Test_Register_API">Test_Register_API</td>
                     <td>test_register_1</td>
                     <td>None</td>
-                    <td>0.034s</td>
+                    <td>0.095s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -280,7 +280,7 @@
                     <td class="Test_Register_API">Test_Register_API</td>
                     <td>test_register_2</td>
                     <td>None</td>
-                    <td>0.014s</td>
+                    <td>0.013s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -295,6 +295,90 @@
                         
 
                             <pre>test_register_2 (test_register_api.Test_Register_API)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="Test_Register_API">Test_Register_API</td>
+                    <td>test_register_3</td>
+                    <td>None</td>
+                    <td>0.18s</td>
+                    
+                        <td class="text-warning">失败</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>test_register_3 (test_register_api.Test_Register_API)执行——>【失败】
+</pre>
+                        
+
+                            <pre>Traceback (most recent call last):
+</pre>
+                        
+
+                            <pre>  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+</pre>
+                        
+
+                            <pre>  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 615, in run
+    testMethod()
+</pre>
+                        
+
+                            <pre>  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\ddt.py", line 184, in wrapper
+    return func(self, *args, **kwargs)
+</pre>
+                        
+
+                            <pre>  File "F:\PythonFullStack\API接口测试\day4\api接口框架\cases\test_register_api.py", line 54, in test_register
+    self.assertEqual(expected,actual)
+</pre>
+                        
+
+                            <pre>  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+</pre>
+                        
+
+                            <pre>  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1138, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+</pre>
+                        
+
+                            <pre>  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+</pre>
+                        
+
+                            <pre>AssertionError: {'code': 0, 'msg': 'OK', 'data': {'id': 1237002773[123 chars]ved'} != {'code': 2, 'msg': '账号已存在', 'data': None, 'copyrig[62 chars]ved'}
+- {'code': 0,
+?          ^
+
++ {'code': 2,
+?          ^
+
+   'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved',
+-  'data': {'id': 1237002773, 'mobile_phone': '18270747310', 'reg_name': '小柠檬'},
++  'data': None,
+-  'msg': 'OK'}
+?          ^^
+
++  'msg': '账号已存在'}
+?          ^^^^^
+
 </pre>
                         
                         
@@ -431,7 +515,7 @@
                 },
                 data: [
                     {value: 2, name: '通过'},
-                    {value: 0, name: '失败'},
+                    {value: 1, name: '失败'},
                     {value: 0, name: '错误'},
                     {value: 0, name: '跳过'}
                 ]
@@ -452,8 +536,8 @@
             {
                 name: '测试结果',
                 type: 'gauge',
-                detail: {formatter: '100.00%'},
-                data: [{value: '100.00', name: '用例通过率'}],
+                detail: {formatter: '66.67%'},
+                data: [{value: '66.67', name: '用例通过率'}],
                 axisLine: {
                     lineStyle: {
                         color: [
