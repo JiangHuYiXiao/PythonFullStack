@@ -16,5 +16,5 @@ time_fmt = now_time.strftime('%Y-%m-%d-%H-%M-%S')
 suite = unittest.defaultTestLoader.discover('cases')            #
 
 # 运行用例
-runner = unittestreport.TestRunner(suite=suite,filename=f'{time_fmt}自动化测试报告',templates=1,tester='jianghu',report_dir="./reports")
+runner = unittestreport.TestRunner(suite=suite,filename=f'auto-test-report-{time_fmt}',templates=1,tester='jianghu',report_dir="./reports")
 runner.run()
