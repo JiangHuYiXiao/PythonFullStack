@@ -5,7 +5,7 @@
 # @Python_verison : 3.7
 
 '''
-注册接口调用步骤：
+充值接口调用步骤：
 1、先调用登录接口获取token和member_id
 2、将token，X-Lemonban-Media-Type添加到请求头headers中
 3、将member_id添加到请求体中
