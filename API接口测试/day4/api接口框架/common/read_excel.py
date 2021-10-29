@@ -29,7 +29,7 @@ def read_excel(file,sheetname):
 
 
 if __name__ == '__main__':
-    res =read_excel(r'F:\PythonFullStack\API接口测试\day4\api接口框架\data\cases_data.xlsx', 'register')
+    res =read_excel(r'F:\PythonFullStack\API接口测试\day4\api接口框架\data\cases2.xlsx', 'recharge')
 
     print(res,type(res))
     # print(res['data'])

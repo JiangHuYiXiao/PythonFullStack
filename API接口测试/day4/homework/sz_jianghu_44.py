@@ -4,10 +4,6 @@
 # @Software       : PythonFullStack
 # @Python_verison : 3.7
 
+# 1， 通过分析接口文档，在 excel 当中编写注册功能的测试用例数据
+# 2， 通过 DDT 实现注册功能的自动化测试
 
-# 1、测试金字塔
-# 从上至下是：
-    # Manual   :手工测试，成本高、速度慢
-    # UI        : UI界面测试，成本比手工地，速度比手工快
-    # Service   :接口测试，成本比ui低，速度比ui快
-    # Unit      :单元测试，成本低，速度快

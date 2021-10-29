@@ -24,7 +24,7 @@ root_dir = os.path.dirname(config_dir)
 data_dir = os.path.join(root_dir,'data')
 
 # 测试数据路径
-testdata_file = os.path.join(data_dir,'cases_data.xlsx')
+testdata_file = os.path.join(data_dir,'cases2.xlsx')
 # print(testdata_file)
 
 
