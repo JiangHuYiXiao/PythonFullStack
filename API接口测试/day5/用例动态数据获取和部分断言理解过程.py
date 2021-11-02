@@ -7,7 +7,8 @@
 
 from API接口测试.day4.api接口框架.common.generate_mobile import generate_cell
 
-# 动态参数获取，通过faker第三方模块生成手机号，这样注册接口中的每次用的就是不一样的手机号
+# 动态参数获取，通过if 判断#mobile_phone#是否存在预期结果中
+# 通过faker第三方模块生成手机号，这样注册接口中的每次用的就是不一样的手机号
 
 str_data = '{"mobile_phone":"#mobile_phone#","pwd":"12345678"}'
 if "#mobile_phone#" in str_data:
