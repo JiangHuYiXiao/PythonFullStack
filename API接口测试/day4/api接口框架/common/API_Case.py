@@ -89,13 +89,19 @@ class API_Case:
         cls.loan_id = str(jsonpath(add_project_response,'$..id')[0])
 
         return add_project_response
-
-    def audit_project(self):
+    @classmethod
+    def audit_project(cls,load_id,admin_login_token):
         '''
+
         审核项目
         :return:
         '''
-        pass
+        json_data = {"loan_id":load_id, "approved_or_not": True}
+        headers = {"X-Lemonban-Media-Type":"lemonban.v2", "Authorization": f"Bearer {admin_login_token}"}
+        audit_project_url = config.host+'/loan/audit'
+
+        audit_project_response= requests.request(method='patch',url=audit_project_url,headers=headers,json=json_data).json()
+        return audit_project_response
 
 
 # print(user_info.user['pwd'])
