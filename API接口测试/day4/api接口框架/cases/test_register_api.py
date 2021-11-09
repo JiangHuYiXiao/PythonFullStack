@@ -45,7 +45,7 @@ class Test_Register_API(unittest.TestCase):
 
         # 判断#mobile_phone#是否在str_data中，如果存在则使用faker生成伪造的手机号替换#mobile_phone#
         # 字符串类型的json_data
-        str_data=i['json_data']
+        str_data=i['json']
         # 判断excel中的json_data标记是否存在
         if '#mobile_phone#' in str_data:
             #生成虚拟手机号

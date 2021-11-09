@@ -29,8 +29,8 @@ invest_data = read_excel(file=config.testdata_file,sheetname='invest')
 
 @ddt
 class Test_Invest(unittest.TestCase,API_Case):
-
-    def setUp(self):
+    @classmethod
+    def setUpClass(cls):
 
         '''
         通过setUp获取投资人、借款人、管理员的登录信息，并且设置为类、对象属性，每个用例不一样所以写在setUp中
@@ -38,19 +38,19 @@ class Test_Invest(unittest.TestCase,API_Case):
         :return:
         '''
         # 投资人手机号#investor_phone#
-        self.investor_phone = user_info.user['mobile_phone']
+        cls.investor_phone = user_info.user['mobile_phone']
         # 投资人密码
-        self.investor_pwd = user_info.user['pwd']
+        cls.investor_pwd = user_info.user['pwd']
 
         # 借款人手机号#loan_phone#
-        self.loan_phone = user_info.user['mobile_phone']
+        cls.loan_phone = user_info.user['mobile_phone']
         # 借款人密码# loan_pwd#
-        self.loan_pwd = user_info.user['pwd']
+        cls.loan_pwd = user_info.user['pwd']
 
         # 管理员手机号#admin_phone#
-        self.admin_phone = user_info.admin_user['mobile_phone']
+        cls.admin_phone = user_info.admin_user['mobile_phone']
         # 管理员密码#admin_pwd#
-        self.admin_pwd = user_info.admin_user['pwd']
+        cls.admin_pwd = user_info.admin_user['pwd']
 
     @data(*invest_data)
     def test_invest(self,info):
