@@ -9,6 +9,7 @@ import requests
 from jsonpath import jsonpath
 from API接口测试.day4.api接口框架.config import user_info, config
 import json
+import re
 
 class API_Case:
     @classmethod
@@ -104,4 +105,121 @@ class API_Case:
         return audit_project_response
 
 
-# print(user_info.user['pwd'])
+
+    # @classmethod
+    # def replace_data(cls,string):           # 类方法，那么设置属性就必须写在setUpClass中
+    #     '''
+    #     使用正则表达式替换excel中的动态数据
+    #     :param string:
+    #     :return: 替换后的字符串
+    #     '''
+    #     result = re.finditer('#(.*?)#',string)
+    #     for el in result:
+    #         old = el.group()    #                #pwd#
+    #         new = getattr(cls,el.group(1))       # pwd
+    #         string = string.replace(old,str(new))
+    #     return string
+
+    def replace_data(self,string):          # 实例方法，那么设置属性就必须写在setUp中
+        '''
+        使用正则表达式替换excel中的动态数据
+        :param string:
+        :return: 替换后的字符串
+        '''
+        result = re.finditer('#(.*?)#',string)
+        for el in result:
+            old = el.group()    #                #pwd#
+            new = getattr(self,el.group(1))       # pwd
+            string = string.replace(old,str(new))
+        return string
+
+
+    def pre_data(self,info):
+        '''
+
+        :param info:
+        :return: 替换后的info
+        '''
+
+        headers = info['headers']
+        str_data = info['json']
+        method = info['method']
+        url = config.host + info['url']
+        expected = json.loads(info['expected'])
+
+        # 使用replace_data替换excel中的#...#数据
+        # 在使用正则表达式进行替换时候，必须先设置类属性，且名称和excel中的#...#名称一致。目前这里还没设置
+        headers = self.replace_data(headers)
+        str_data = self.replace_data(str_data)
+
+        # 判断是否存在extractor，存在我们就将数据类型转换成字典
+        extractor = {}
+        if info['extractor']:
+            extractor = json.loads(info['extractor'])
+
+        # 数据类型转换
+        headers = json.loads(headers)
+        json_data = json.loads(str_data)
+
+        info['headers'] = headers
+        info['json'] = json_data
+        info['expected'] = expected
+        info['extractor'] = extractor
+
+        return info
+
+
+    def visit(self,info):
+        '''
+        访问接口
+        :return:
+        '''
+
+        actual = requests.request(method=info['method'], url=config.host + info['url'], headers=info['headers'], json=info['json']).json()
+        return actual
+
+
+    # def extractor(self,response,info):
+    #     '''
+    #     设置属性
+    #     :return: None
+    #     '''
+    #     for prop_name,jsonpath_expression in info['extractor'].items():
+    #         value = jsonpath(response,jsonpath_expression)[0]
+    #
+    #         # 设置API_Case属性为类属性，这样其他类就可以使用
+    #         setattr(API_Case,prop_name,value)
+    @classmethod
+    def extractor(cls,response,info):
+        '''
+        设置属性
+        :return: None
+        '''
+        for prop_name,jsonpath_expression in info['extractor'].items():
+            value = jsonpath(response,jsonpath_expression)[0]
+
+            # 设置API_Case属性为类属性，这样其他类就可以使用
+            setattr(cls,prop_name,value)
+
+    def assert_all(self,info,response):
+        '''
+        断言
+        :return: None
+        '''
+        for key,value in info['expected'].items():
+            self.assertEqual(value,response[key])
+
+
+    def steps(self,info):
+        '''把四个函数都封装到steps函数中'''
+        # 1、数据预处理
+        info = self.pre_data(info)
+
+        # 2、调用接口得到实际结果
+        actual = self.visit(info)
+
+        # 3、数据提取
+        self.extractor(response=actual,info= info)
+
+        # 4、实际结果和预期结果的断言
+        self.assert_all(info=info,response=actual)
