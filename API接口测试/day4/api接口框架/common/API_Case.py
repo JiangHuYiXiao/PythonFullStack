@@ -106,8 +106,22 @@ class API_Case:
 
 
 
-    # @classmethod
-    # def replace_data(cls,string):           # 类方法，那么设置属性就必须写在setUpClass中
+    @classmethod
+    def replace_data(cls,string):           # 类方法，那么设置类属性可以写在setUpClass中，用cls去设置属性，或者写在setUp中用API_Case去设置，因为cls和API_Case才表示类本身
+        '''
+        尽量设置为类方法，这样我们不仅可以使用类调用还可以使用对象调用
+        使用正则表达式替换excel中的动态数据
+        :param string:
+        :return: 替换后的字符串
+        '''
+        result = re.finditer('#(.*?)#',string)
+        for el in result:
+            old = el.group()    #                #pwd#
+            new = getattr(cls,el.group(1))       # pwd
+            string = string.replace(old,str(new))
+        return string
+
+    # def replace_data(self,string):          # 实例方法，那么设置实例属性就必须写在setUp中,用self去设置属性，因为self表示的实例本身
     #     '''
     #     使用正则表达式替换excel中的动态数据
     #     :param string:
@@ -116,22 +130,9 @@ class API_Case:
     #     result = re.finditer('#(.*?)#',string)
     #     for el in result:
     #         old = el.group()    #                #pwd#
-    #         new = getattr(cls,el.group(1))       # pwd
+    #         new = getattr(self,el.group(1))       # pwd
     #         string = string.replace(old,str(new))
     #     return string
-
-    def replace_data(self,string):          # 实例方法，那么设置属性就必须写在setUp中
-        '''
-        使用正则表达式替换excel中的动态数据
-        :param string:
-        :return: 替换后的字符串
-        '''
-        result = re.finditer('#(.*?)#',string)
-        for el in result:
-            old = el.group()    #                #pwd#
-            new = getattr(self,el.group(1))       # pwd
-            string = string.replace(old,str(new))
-        return string
 
 
     def pre_data(self,info):
