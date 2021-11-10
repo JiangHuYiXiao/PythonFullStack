@@ -1,0 +1,1522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="839bba2c-ae04-4b1c-b61b-775e2b3ed712" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/API接口测试/day11/jenkins学习.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API接口测试/day11/自动化测试项目用例运行方式.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API接口测试/day4/api接口框架/reports/AT_test.log" beforeDir="false" afterPath="$PROJECT_DIR$/API接口测试/day4/api接口框架/reports/AT_test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API接口测试/day4/api接口框架/reports/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/API接口测试/day4/api接口框架/reports/history.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PythonFullStack$notes.coverage" NAME="notes Coverage Results" MODIFIED="1631235155027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 python基础/day01/python的基本语法" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$notes__2_.coverage" NAME="notes (2) Coverage Results" MODIFIED="1631234831994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 python基础/day07/day07_控制流程之while和for循环" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$run.coverage" NAME="run Coverage Results" MODIFIED="1636507729882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_login_ddt_Test_Login_test_login.coverage" NAME="Unittests for test_login_ddt.Test_Login.test_login Coverage Results" MODIFIED="1633746927219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day3" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$test_demo__1_.coverage" NAME="test_demo (1) Coverage Results" MODIFIED="1634283424730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day6/project/tests" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_login1_Test_Login.coverage" NAME="Unittests for test_login1.Test_Login Coverage Results" MODIFIED="1633742448831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day3" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$03requests.coverage" NAME="03接口框架requests设置请求参数 Coverage Results" MODIFIED="1634709942617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day3" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$test_login_for.coverage" NAME="test_login_for Coverage Results" MODIFIED="1633745736745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day3" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1632735292160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day1/homework/sz_jianghu_44" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$AT_logging.coverage" NAME="AT_logging Coverage Results" MODIFIED="1634173522308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day5" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_invest01_Test_Invest.coverage" NAME="Unittests for test_invest01.Test_Invest Coverage Results" MODIFIED="1636449598754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$__44__2_.coverage" NAME="深圳-江湖-44 (2) Coverage Results" MODIFIED="1632271387534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础/day11/homework" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_invest02_Test_Invest_test_invest.coverage" NAME="Unittests for test_invest02.Test_Invest.test_invest Coverage Results" MODIFIED="1636368200689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$random.coverage" NAME="随机数random Coverage Results" MODIFIED="1631756546019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础/day05" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$yaml.coverage" NAME="yaml文件读取 Coverage Results" MODIFIED="1633918093897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day4" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$04requests.coverage" NAME="04接口框架requests响应格式 Coverage Results" MODIFIED="1634712870606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day3" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$jsonpath.coverage" NAME="jsonpath使用 Coverage Results" MODIFIED="1635736448227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day7" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$test_demo.coverage" NAME="test_demo Coverage Results" MODIFIED="1634267392166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day6/tests" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_fixture_Test_database.coverage" NAME="Unittests for test_fixture.Test_database Coverage Results" MODIFIED="1633689246512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day2/测试数据分离/test_case" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_in_d1_unittest_py.coverage" NAME="Unittests in d1_unittest单元测试框架.py Coverage Results" MODIFIED="1632732519132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础/day13" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_login_api_Login_Test.coverage" NAME="Unittests for test_login_api.Login_Test Coverage Results" MODIFIED="1635495442339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$if.coverage" NAME="if条件控制 Coverage Results" MODIFIED="1631779270618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础/day05" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_in_test_fixture_py.coverage" NAME="Unittests in test_fixture.py Coverage Results" MODIFIED="1633689386754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day2/测试数据分离/test_case" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$AT_logger.coverage" NAME="AT_logger Coverage Results" MODIFIED="1634285568528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day4" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$debug.coverage" NAME="debug调试 Coverage Results" MODIFIED="1631767811970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础/day05" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$logging.coverage" NAME="日志模块logging Coverage Results" MODIFIED="1634117817128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day5" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$read_excel.coverage" NAME="read_excel Coverage Results" MODIFIED="1635491462941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/common" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$python.coverage" NAME="python操作数据库的封装 Coverage Results" MODIFIED="1635388554760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day6" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$read_excel_dict.coverage" NAME="read_excel_dict Coverage Results" MODIFIED="1634891391927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day5/AT_Test_Framework/common" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$.coverage" NAME="正则表达式数据替换封装 Coverage Results" MODIFIED="1636421698707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day10" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_11_Recharge_Test.coverage" NAME="Unittests for 11.Recharge_Test Coverage Results" MODIFIED="1635493306476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$AT_logger__1_.coverage" NAME="AT_logger (1) Coverage Results" MODIFIED="1634288688389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day5/AT_Test_Framework/common" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_withdraw01_Test_Withdraw.coverage" NAME="Unittests for test_withdraw01.Test_Withdraw Coverage Results" MODIFIED="1636458245688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$__44.coverage" NAME="深圳-江湖-44 Coverage Results" MODIFIED="1632626103791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础/day12/homework" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_login_ddt_Test_Login_test_login_null.coverage" NAME="Unittests for test_login_ddt.Test_Login.test_login_null Coverage Results" MODIFIED="1633746517447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day3" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$loguru.coverage" NAME="日志模块loguru Coverage Results" MODIFIED="1633925926962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day4" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$03requestshead.coverage" NAME="03接口框架requests设置请求头head Coverage Results" MODIFIED="1634699055027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day3" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_add_project1_Test_Add_Project.coverage" NAME="Unittests for test_add_project1.Test_Add_Project Coverage Results" MODIFIED="1636099076530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_in_test_login1_py.coverage" NAME="Unittests in test_login1.py Coverage Results" MODIFIED="1633742367289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day3" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$test_add_project.coverage" NAME="test_add_project Coverage Results" MODIFIED="1636074243071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$re.coverage" NAME="re模块示例 Coverage Results" MODIFIED="1636183383531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day9/正则表达式" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$__44__3_.coverage" NAME="深圳-江湖-44 (3) Coverage Results" MODIFIED="1631531597179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 python基础/day02/homework" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_d1_unittest_Login_Test_test1.coverage" NAME="Unittests for d1_unittest单元测试框架.Login_Test.test1 Coverage Results" MODIFIED="1632732340277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础/day13" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$test_recharge_api.coverage" NAME="test_recharge_api Coverage Results" MODIFIED="1635493210861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_recharge_api_Recharge_Test.coverage" NAME="Unittests for test_recharge_api.Recharge_Test Coverage Results" MODIFIED="1635410504524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$test_invest01.coverage" NAME="test_invest01 Coverage Results" MODIFIED="1636372607245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_audit_project_Test_Audit_Project.coverage" NAME="Unittests for test_audit_project.Test_Audit_Project Coverage Results" MODIFIED="1636507785452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_loguru_Test_Login.coverage" NAME="Unittests for 日志模块loguru.Test_Login Coverage Results" MODIFIED="1633925940030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day4" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_read_excel_Test_read_excel_dict_test_read_excel3.coverage" NAME="Unittests for test_read_excel.Test_read_excel_dict.test_read_excel3 Coverage Results" MODIFIED="1633741149303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day3" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$sz_jianghu_44__1_.coverage" NAME="sz_jianghu_44 (1) Coverage Results" MODIFIED="1633919636672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day4/homework" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_login1_Test_Login_test_login_error.coverage" NAME="Unittests for test_login1.Test_Login.test_login_error Coverage Results" MODIFIED="1633742391719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day3" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_recharge_Recharge_Test.coverage" NAME="Unittests for test_recharge.Recharge_Test Coverage Results" MODIFIED="1635494229856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$pythonexcel.coverage" NAME="python读取excel操作封装 Coverage Results" MODIFIED="1633740745141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day2" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$test_withdraw.coverage" NAME="test_withdraw Coverage Results" MODIFIED="1636025058611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$module_demo__1_.coverage" NAME="module_demo (1) Coverage Results" MODIFIED="1631692478737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础/day09/包和模块" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$__44__1_.coverage" NAME="深圳-江湖-44 (1) Coverage Results" MODIFIED="1631847558918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础/day10/homework" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_read_excel_Test_read_excel_dict.coverage" NAME="Unittests for test_read_excel.Test_read_excel_dict Coverage Results" MODIFIED="1633741098264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day3" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$ini.coverage" NAME="ini文件读取 Coverage Results" MODIFIED="1633920383110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day4" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$money_project_api.coverage" NAME="money_project_api Coverage Results" MODIFIED="1634718408830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day3" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_in_loguru_py.coverage" NAME="Unittests in 日志模块loguru.py Coverage Results" MODIFIED="1633927264828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day4" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$1.coverage" NAME="1 Coverage Results" MODIFIED="1635325785524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day5" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_login_ddt_Test_Login.coverage" NAME="Unittests for test_login_ddt.Test_Login Coverage Results" MODIFIED="1633746967108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day3" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_recharge_api_Recharge_Test_test_recharge.coverage" NAME="Unittests for test_recharge_api.Recharge_Test.test_recharge Coverage Results" MODIFIED="1635410418135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_login_api_Login_Test_test_login.coverage" NAME="Unittests for test_login_api.Login_Test.test_login Coverage Results" MODIFIED="1635495079352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$config.coverage" NAME="config Coverage Results" MODIFIED="1635491407299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/config" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$pytest_in__py.coverage" NAME="pytest in 函数.py Coverage Results" MODIFIED="1631236219444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 python基础/day08" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_audit_project_Test_Add_Project.coverage" NAME="Unittests for test_audit_project.Test_Add_Project Coverage Results" MODIFIED="1636074052409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$notes__1_.coverage" NAME="notes (1) Coverage Results" MODIFIED="1631157657825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 python基础/day01/python的基本语法" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_recharge_02_Recharge_Test.coverage" NAME="Unittests for test_recharge_02.Recharge_Test Coverage Results" MODIFIED="1635769699333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$module_demo.coverage" NAME="module_demo Coverage Results" MODIFIED="1632271009882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础/day09/包和模块" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_11_Recharge_Test_test_recharge.coverage" NAME="Unittests for 11.Recharge_Test.test_recharge Coverage Results" MODIFIED="1635493299334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_in_test_recharge_py.coverage" NAME="Unittests in test_recharge.py Coverage Results" MODIFIED="1635493409370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_in_test_login_for_py.coverage" NAME="Unittests in test_login_for.py Coverage Results" MODIFIED="1633745808009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day3" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_invest03_Test_Invest.coverage" NAME="Unittests for test_invest03.Test_Invest Coverage Results" MODIFIED="1636432435946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$sz_jianghu_44.coverage" NAME="sz_jianghu_44 Coverage Results" MODIFIED="1634718829715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day3/homework" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_read_excel_Test_read_excel_dict_test_read_excel2.coverage" NAME="Unittests for test_read_excel.Test_read_excel_dict.test_read_excel2 Coverage Results" MODIFIED="1633741037650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day3" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$db_handler.coverage" NAME="db_handler Coverage Results" MODIFIED="1635826359161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/common" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$API_Case.coverage" NAME="API_Case Coverage Results" MODIFIED="1636076131036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/common" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_invest02_Test_Invest.coverage" NAME="Unittests for test_invest02.Test_Invest Coverage Results" MODIFIED="1636432279696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_register_api_Test_Register_API.coverage" NAME="Unittests for test_register_api.Test_Register_API Coverage Results" MODIFIED="1636458119773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$requests01.coverage" NAME="requests接口框架01 Coverage Results" MODIFIED="1634526967784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day2" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1635409538159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day6" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$super.coverage" NAME="super超继承 Coverage Results" MODIFIED="1632705518542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础/day13" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$pythonpymysql.coverage" NAME="python通过pymysql链接数据库 Coverage Results" MODIFIED="1635385625737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day6" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$test_login2.coverage" NAME="test_login2 Coverage Results" MODIFIED="1633684961345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day1/d1_testcase" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$01requests.coverage" NAME="01接口框架requests设置请求方法 Coverage Results" MODIFIED="1634697347671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day3" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$test_add_project1.coverage" NAME="test_add_project1 Coverage Results" MODIFIED="1636507880924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1635770292965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_in_test_read_excel_py.coverage" NAME="Unittests in test_read_excel.py Coverage Results" MODIFIED="1633741077355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day3" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_in_test_login_ddt_py.coverage" NAME="Unittests in test_login_ddt.py Coverage Results" MODIFIED="1633748486289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittest框架/day3/homework" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$note.coverage" NAME="note Coverage Results" MODIFIED="1631184361239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 python基础/day02/数据类型转换及运算" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for_test_register_api_Test_Register_API_test_register_mobile_null.coverage" NAME="Unittests for test_register_api.Test_Register_API.test_register_mobile_null Coverage Results" MODIFIED="1634893785682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+    <SUITE FILE_PATH="coverage/PythonFullStack$Unittests_for__Recharge_Test.coverage" NAME="Unittests for 充值接口中的断言余额校验.Recharge_Test Coverage Results" MODIFIED="1635769719772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API接口测试/day7" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1748694867">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.129" value="1" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.69" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="2" />
+          <entry key="html" value="18" />
+          <entry key="ini" value="1" />
+          <entry key="log" value="19" />
+          <entry key="png" value="2" />
+          <entry key="py" value="623" />
+          <entry key="pyi" value="6" />
+          <entry key="txt" value="9" />
+          <entry key="yaml" value="3" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="18" />
+          <entry key="Image" value="2" />
+          <entry key="Ini" value="1" />
+          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="Python" value="623" />
+          <entry key="PythonStub" value="6" />
+          <entry key="YAML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="5" />
+          <entry key="dummy" value="164" />
+          <entry key="gitignore" value="4" />
+          <entry key="ini" value="84" />
+          <entry key="py" value="84063" />
+          <entry key="txt" value="1116" />
+          <entry key="yaml" value="648" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Ini" value="84" />
+          <entry key="PLAIN_TEXT" value="1284" />
+          <entry key="Python" value="84068" />
+          <entry key="YAML" value="648" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_add_project1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+              <folding>
+                <element signature="e#280#295#0" expanded="true" />
+                <marker date="1636507551410" expanded="true" signature="786:814" ph="..." />
+                <marker date="1636507551410" expanded="true" signature="888:897" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API接口测试/day8/代码管理github&amp;gitee&amp;gitlab.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/API接口测试/day8/版本控制git.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="673">
+              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python基础/day09/包和模块/module_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="29" selection-start-line="29" selection-end-line="30" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+              <folding>
+                <element signature="e#146#176#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_audit_project.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+              <folding>
+                <element signature="e#264#279#0" expanded="true" />
+                <marker date="1636104077565" expanded="true" signature="928:970" ph="..." />
+                <marker date="1636104077565" expanded="true" signature="1004:1013" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>格式化</find>
+      <find>encoding</find>
+      <find>断点</find>
+      <find>conf</find>
+      <find>login</find>
+      <find>post</find>
+      <find>ddt</find>
+      <find>phone</find>
+      <find>Faker</find>
+      <find>函数封装</find>
+      <find>decimal</find>
+      <find>解码</find>
+      <find>解</find>
+      <find>setattr</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/API接口测试/day6/接口关联充值和登录.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day6/python通过pymysql链接数据库.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day6/python操作数据库的封装.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day6/1.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/common/read_excel.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/config/config.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_recharge_api.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/11.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day6/homework/sz_jianghu_44.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_login_api.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/homework/sz_jianghu_44.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day5/测试金字塔.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_recharge.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day8/homework/sz_jianghu_44.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day7/jsonpath使用.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_recharge_02.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day7/充值接口中的登录代码封装到API_Case类中的login方法中.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/common/db_handler.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day7/充值接口中的断言余额校验.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_recharge_03.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_withdraw.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_withdraw01.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day7/接口关联总结.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day7/homework/sz_jianghu_44.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day5/动态参数获取和部分断言理解过程.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day8/代码管理github&amp;gitee&amp;gitlab.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/config/user_info.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day8/项目审核流程接口分析.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day10/正则表达式替换数据封装.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_add_project.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_audit_project.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day8/版本控制git.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day8/解决git冲突方法.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day9/正则表达式/正则表达式.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day9/正则表达式/re模块自动化测试应用.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day9/正则表达式/re模块自动化测试应用知识点.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day9/正则表达式/re模块示例.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day10/投资接口分析.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day10/多接口关联之业务流.py" />
+        <option value="$PROJECT_DIR$/python基础/day13/类方法和实例方法和静态方法的区别.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day10/homework/sz_jianghu_44.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day10/正则表达式数据替换封装.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/common/API_Case.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_invest01.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day11/jenkins.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day11/自动化测试项目用例运行方式.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_invest02.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_invest03.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_register_api.py" />
+        <option value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_add_project1.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="872" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PythonFullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonFullStack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonFullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonFullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="API接口测试" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonFullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonFullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="API接口测试" type="462c0819:PsiDirectoryNode" />
+              <item name="day4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonFullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonFullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="API接口测试" type="462c0819:PsiDirectoryNode" />
+              <item name="day4" type="462c0819:PsiDirectoryNode" />
+              <item name="api接口框架" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonFullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonFullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="API接口测试" type="462c0819:PsiDirectoryNode" />
+              <item name="day4" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonFullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonFullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="API接口测试" type="462c0819:PsiDirectoryNode" />
+              <item name="day8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonFullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonFullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="API接口测试" type="462c0819:PsiDirectoryNode" />
+              <item name="day9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonFullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonFullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="API接口测试" type="462c0819:PsiDirectoryNode" />
+              <item name="day10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonFullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonFullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="python基础" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonFullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonFullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="python基础" type="462c0819:PsiDirectoryNode" />
+              <item name="day07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonFullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonFullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="python基础" type="462c0819:PsiDirectoryNode" />
+              <item name="day08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonFullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonFullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="python基础" type="462c0819:PsiDirectoryNode" />
+              <item name="day09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonFullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonFullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="python基础" type="462c0819:PsiDirectoryNode" />
+              <item name="day09" type="462c0819:PsiDirectoryNode" />
+              <item name="包和模块" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/PythonFullStack/01 python基础/day09/函数的作用域.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/API接口测试/day7/充值接口中的断言余额校验.py" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="PyDebuggerOptionsProvider">
+    <option name="mySupportQtDebugging" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PythonFullStack\API接口测试" />
+      <recent name="F:\PythonFullStack\day9" />
+      <recent name="F:\PythonFullStack\unittest框架\day6\project" />
+      <recent name="F:\PythonFullStack\unittest框架\day1\homework\深圳-jianghu-44" />
+      <recent name="F:\PythonFullStack\python基础\day10\异常处理" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PythonFullStack\API接口测试\day4\api接口框架\cases" />
+      <recent name="F:\PythonFullStack\API接口测试\day7" />
+      <recent name="F:\PythonFullStack\API接口测试\day4\api接口框架\common" />
+      <recent name="F:\PythonFullStack\API接口测试\day4\api接口框架\config" />
+      <recent name="F:\PythonFullStack\unittest框架\day5\AT_Test_Framework\common" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test_add_project1">
+    <configuration name="内置函数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonFullStack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01 python基础/day09" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01 python基础/day09/内置函数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonFullStack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API接口测试/day4/api接口框架" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API接口测试/day4/api接口框架/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_add_project1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonFullStack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_add_project1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for API接口测试.day4.api接口框架.cases.test_invest01.Test_Invest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PythonFullStack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Administrator\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;API接口测试.day4.api接口框架.cases.test_invest01.Test_Invest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_audit_project.Test_Audit_Project" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PythonFullStack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Administrator\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_audit_project.Test_Audit_Project&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_register_api.Test_Register_API" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PythonFullStack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Administrator\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_register_api.Test_Register_API&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_withdraw01.Test_Withdraw" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PythonFullStack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Administrator\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API接口测试/day4/api接口框架/cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_withdraw01.Test_Withdraw&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="tests" factoryName="Unittests">
+      <module name="PythonFullStack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Administrator\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/API接口测试/day7/充值接口中的断言余额校验.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="PythonFullStack" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Administrator\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unittest框架/day4/日志模块loguru.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Unnamed" />
+      <item itemvalue="Python tests.Unittests for API接口测试.day4.api接口框架.cases.test_invest01.Test_Invest" />
+      <item itemvalue="Python.内置函数" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python tests.Unittests for test_register_api.Test_Register_API" />
+      <item itemvalue="Python tests.Unittests for test_withdraw01.Test_Withdraw" />
+      <item itemvalue="Python.test_add_project1" />
+      <item itemvalue="Python tests.Unittests for test_audit_project.Test_Audit_Project" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_add_project1" />
+        <item itemvalue="Python tests.Unittests for test_audit_project.Test_Audit_Project" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python tests.Unittests for test_withdraw01.Test_Withdraw" />
+        <item itemvalue="Python tests.Unittests for test_register_api.Test_Register_API" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="839bba2c-ae04-4b1c-b61b-775e2b3ed712" name="Default Changelist" comment="" />
+      <created>1631100110028</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631100110028</updated>
+    </task>
+    <task id="LOCAL-00057" summary="主动抛出异常后，后面的代码也不会继续执行了">
+      <created>1633927826067</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1633927826068</updated>
+    </task>
+    <task id="LOCAL-00058" summary="配置文件yaml和日志模块loguru">
+      <created>1633927891437</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1633927891437</updated>
+    </task>
+    <task id="LOCAL-00059" summary="作业运行文件">
+      <created>1633928076982</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1633928076982</updated>
+    </task>
+    <task id="LOCAL-00060" summary="day3">
+      <created>1634088936908</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1634088936908</updated>
+    </task>
+    <task id="LOCAL-00061" summary="day5日志模块logging和自动化框架搭建1">
+      <created>1634174080248</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1634174080248</updated>
+    </task>
+    <task id="LOCAL-00062" summary="封装logger日志函数">
+      <created>1634285597093</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1634285597093</updated>
+    </task>
+    <task id="LOCAL-00063" summary="更新日志函数封装和用例中日志记录">
+      <created>1634286630647</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1634286630648</updated>
+    </task>
+    <task id="LOCAL-00064" summary="读取yaml文件">
+      <created>1634286809119</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1634286809119</updated>
+    </task>
+    <task id="LOCAL-00065" summary="更新使用的动态路径进行运行用例">
+      <created>1634288942683</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1634288942683</updated>
+    </task>
+    <task id="LOCAL-00066" summary="day6">
+      <created>1634288970234</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1634288970234</updated>
+    </task>
+    <task id="LOCAL-00067" summary="1">
+      <created>1634289037370</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1634289037370</updated>
+    </task>
+    <task id="LOCAL-00068" summary="接口测试基础">
+      <created>1634290548409</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1634290548410</updated>
+    </task>
+    <task id="LOCAL-00069" summary="接口测试基础关于session、token、cookie和requests框架基础">
+      <created>1634526304142</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1634526304142</updated>
+    </task>
+    <task id="LOCAL-00070" summary="更新run">
+      <created>1634527303732</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1634527303732</updated>
+    </task>
+    <task id="LOCAL-00071" summary="接口框架requests使用02">
+      <created>1634718979707</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1634718979707</updated>
+    </task>
+    <task id="LOCAL-00072" summary="接口自动化测试框架搭建">
+      <created>1634895006281</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1634895006281</updated>
+    </task>
+    <task id="LOCAL-00073" summary="接口测试框架搭建">
+      <created>1635148604113</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1635148604113</updated>
+    </task>
+    <task id="LOCAL-00074" summary="更新数据驱动ddt的使用场景函数逻辑一样只是数据不一样">
+      <created>1635317071823</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1635317071823</updated>
+    </task>
+    <task id="LOCAL-00075" summary="更新run中的报告文件名称格式">
+      <created>1635317372716</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1635317372717</updated>
+    </task>
+    <task id="LOCAL-00076" summary="更新接口框架中的动态参数获取和部分断言">
+      <created>1635326125499</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1635326125499</updated>
+    </task>
+    <task id="LOCAL-00077" summary="day5">
+      <created>1635326170591</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1635326170591</updated>
+    </task>
+    <task id="LOCAL-00078" summary="更新测试金字塔">
+      <created>1635495857875</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1635495857875</updated>
+    </task>
+    <task id="LOCAL-00079" summary="day6">
+      <created>1635495899533</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1635495899533</updated>
+    </task>
+    <task id="LOCAL-00080" summary="接口框架更新">
+      <created>1635495916956</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1635495916956</updated>
+    </task>
+    <task id="LOCAL-00081" summary="注册">
+      <created>1635496026782</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1635496026782</updated>
+    </task>
+    <task id="LOCAL-00082" summary="封装数据库操作">
+      <created>1635496155268</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1635496155269</updated>
+    </task>
+    <task id="LOCAL-00083" summary="更新api接口框架">
+      <created>1635829153477</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1635829153478</updated>
+    </task>
+    <task id="LOCAL-00084" summary="day7接口关联和充值余额校验和jsonpath">
+      <created>1635829230790</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1635829230790</updated>
+    </task>
+    <task id="LOCAL-00085" summary="删除withdraw文件">
+      <created>1635829546161</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1635829546161</updated>
+    </task>
+    <task id="LOCAL-00086" summary="用例动态数据获取">
+      <created>1635855142758</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1635855142758</updated>
+    </task>
+    <task id="LOCAL-00087" summary="git学习">
+      <created>1635909537831</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1635909537831</updated>
+    </task>
+    <task id="LOCAL-00088" summary="捕获异常总结补充">
+      <created>1635988427046</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1635988427046</updated>
+    </task>
+    <task id="LOCAL-00089" summary="自动化接口搭建及测试流程">
+      <created>1636073336390</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1636073336391</updated>
+    </task>
+    <task id="LOCAL-00090" summary="自动化框架搭建和测试流程">
+      <created>1636073502625</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1636073502625</updated>
+    </task>
+    <task id="LOCAL-00091" summary="项目审核流程接口分析">
+      <created>1636073590069</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1636073590069</updated>
+    </task>
+    <task id="LOCAL-00092" summary="添加项目接口测试">
+      <created>1636099188091</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1636099188091</updated>
+    </task>
+    <task id="LOCAL-00093" summary="api_case封装">
+      <created>1636104118053</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1636104118053</updated>
+    </task>
+    <task id="LOCAL-00094" summary="审核项目接口测试">
+      <created>1636104250436</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1636104250436</updated>
+    </task>
+    <task id="LOCAL-00095" summary="api接口框架更新">
+      <created>1636163573617</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1636163573617</updated>
+    </task>
+    <task id="LOCAL-00096" summary="clone和pull">
+      <created>1636165041183</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1636165041184</updated>
+    </task>
+    <task id="LOCAL-00097" summary="git代码修改和远程仓库的代码有冲突">
+      <created>1636165408824</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1636165408824</updated>
+    </task>
+    <task id="LOCAL-00098" summary="git代码冲突情况">
+      <created>1636166155332</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1636166155332</updated>
+    </task>
+    <task id="LOCAL-00099" summary="git代码冲突情况">
+      <created>1636166288379</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1636166288379</updated>
+    </task>
+    <task id="LOCAL-00100" summary="python中re模块及热模块在自动化测试中的应用">
+      <created>1636183426624</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1636183426624</updated>
+    </task>
+    <task id="LOCAL-00101" summary="类方法">
+      <created>1636423545289</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1636423545289</updated>
+    </task>
+    <task id="LOCAL-00102" summary="day10">
+      <created>1636432975667</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1636432975667</updated>
+    </task>
+    <task id="LOCAL-00103" summary="接口框架优化之使用业务流进行测试">
+      <created>1636433024359</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1636433024360</updated>
+    </task>
+    <task id="LOCAL-00104" summary="更新接口框架中类属性设置和实例属性设置">
+      <created>1636449637830</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1636449637830</updated>
+    </task>
+    <task id="LOCAL-00105" summary="框架更新">
+      <created>1636458720727</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1636458720727</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_invest01_Test_Invest - 2021.11.09 at 17h 06m 38s.xml">
+      <configuration name="Unittests for test_invest01.Test_Invest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_invest01_Test_Invest - 2021.11.09 at 17h 13m 30s.xml">
+      <configuration name="Unittests for test_invest01.Test_Invest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_invest01_Test_Invest - 2021.11.09 at 17h 16m 10s.xml">
+      <configuration name="Unittests for test_invest01.Test_Invest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_invest01_Test_Invest - 2021.11.09 at 17h 20m 00s.xml">
+      <configuration name="Unittests for test_invest01.Test_Invest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_register_api_Test_Register_API - 2021.11.09 at 19h 27m 44s.xml">
+      <configuration name="Unittests for test_register_api.Test_Register_API" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_register_api_Test_Register_API - 2021.11.09 at 19h 39m 47s.xml">
+      <configuration name="Unittests for test_register_api.Test_Register_API" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_register_api_Test_Register_API - 2021.11.09 at 19h 42m 02s.xml">
+      <configuration name="Unittests for test_register_api.Test_Register_API" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_withdraw01_Test_Withdraw - 2021.11.09 at 19h 44m 07s.xml">
+      <configuration name="Unittests for test_withdraw01.Test_Withdraw" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_audit_project_Test_Audit_Project - 2021.11.10 at 09h 26m 40s.xml">
+      <configuration name="Unittests for test_audit_project.Test_Audit_Project" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_audit_project_Test_Audit_Project - 2021.11.10 at 09h 29m 47s.xml">
+      <configuration name="Unittests for test_audit_project.Test_Audit_Project" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49911818" visible="true" weight="0.21108742" />
+      <window_info id="Structure" order="1" sideWeight="0.50088185" side_tool="true" weight="0.15724947" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" weight="0.39121115" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" weight="0.28724545" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3290461" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50319827" side_tool="true" weight="0.37191853" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3290461" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49911818" visible="true" weight="0.18070363" />
+      <window_info id="Structure" order="1" sideWeight="0.50088185" side_tool="true" weight="0.15724947" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" visible="true" weight="0.39121115" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" weight="0.28724545" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3290461" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50319827" side_tool="true" weight="0.37191853" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3290461" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3290461" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/API接口测试/day4" />
+    </ignored-roots>
+    <MESSAGE value="接口框架更新" />
+    <MESSAGE value="注册" />
+    <MESSAGE value="封装数据库操作" />
+    <MESSAGE value="更新api接口框架" />
+    <MESSAGE value="day7接口关联和充值余额校验和jsonpath" />
+    <MESSAGE value="删除withdraw文件" />
+    <MESSAGE value="用例动态数据获取" />
+    <MESSAGE value="git学习" />
+    <MESSAGE value="捕获异常总结补充" />
+    <MESSAGE value="自动化接口搭建及测试流程" />
+    <MESSAGE value="自动化框架搭建和测试流程" />
+    <MESSAGE value="项目审核流程接口分析" />
+    <MESSAGE value="添加项目接口测试" />
+    <MESSAGE value="api_case封装" />
+    <MESSAGE value="审核项目接口测试" />
+    <MESSAGE value="api接口框架更新" />
+    <MESSAGE value="clone和pull" />
+    <MESSAGE value="git代码修改和远程仓库的代码有冲突" />
+    <MESSAGE value="git代码冲突情况" />
+    <MESSAGE value="python中re模块及热模块在自动化测试中的应用" />
+    <MESSAGE value="类方法" />
+    <MESSAGE value="day10" />
+    <MESSAGE value="接口框架优化之使用业务流进行测试" />
+    <MESSAGE value="更新接口框架中类属性设置和实例属性设置" />
+    <MESSAGE value="框架更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="框架更新" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/unittest框架/day4/测试题.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint suspend="NONE" type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>*add_project_data</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="662" selection-start-line="662" selection-end-line="662" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/unittest/suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day7/jsonpath使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day10/正则表达式替换数据封装.py" />
+    <entry file="file://$PROJECT_DIR$/API接口测试/day7/接口关联总结.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day8/解决git冲突方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/config/user_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day10/投资接口分析.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day9/正则表达式/正则表达式.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day9/正则表达式/re模块自动化测试应用知识点.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day9/正则表达式/re模块示例.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python基础/day13/动态获取属性.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python基础/day13/类方法和实例方法和静态方法的区别.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_login_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day10/homework/sz_jianghu_44.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day10/多接口关联之业务流.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="94" selection-start-line="18" selection-start-column="94" selection-end-line="18" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day10/正则表达式数据替换封装.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_invest01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Python_study/Web-Autotest-Python/第八章-持续集成/01持续集成的概述.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-359">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Python_study/Web-Autotest-Python/第八章-持续集成/02jenkins安装.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day11/jenkins学习.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day11/自动化测试项目用例运行方式.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/reports/auto-test-report-2021-11-09-19-15-35.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/reports/auto-test-report-2021-11-09-19-20-08.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python基础/day12/实例方法和类方法和静态方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_invest03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_invest02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/reports/auto-test-report-2021-11-09-19-25-18.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/common/API_Case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="117" column="25" lean-forward="true" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/reports/auto-test-report-2021-11-09-19-28-50.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/reports/auto-test-report-2021-11-09-19-32-56.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/reports/auto-test-report-2021-11-09-19-37-36.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="105" lean-forward="true" selection-start-line="5" selection-start-column="105" selection-end-line="5" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_register_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/reports/auto-test-report-2021-11-09-19-42-29.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_withdraw01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_recharge.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_recharge_02.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_recharge_03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/reports/auto-test-report-2021-11-10-08-49-43.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/reports/auto-test-report-2021-11-09-19-52-20.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/reports/auto-test-report-2021-11-09-19-50-54.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="e#146#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_audit_project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="e#264#279#0" expanded="true" />
+            <marker date="1636104077565" expanded="true" signature="928:970" ph="..." />
+            <marker date="1636104077565" expanded="true" signature="1004:1013" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python基础/day09/包和模块/module_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="29" selection-start-line="29" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day4/api接口框架/cases/test_add_project1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <element signature="e#280#295#0" expanded="true" />
+            <marker date="1636507551410" expanded="true" signature="786:814" ph="..." />
+            <marker date="1636507551410" expanded="true" signature="888:897" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day8/代码管理github&amp;gitee&amp;gitlab.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API接口测试/day8/版本控制git.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
